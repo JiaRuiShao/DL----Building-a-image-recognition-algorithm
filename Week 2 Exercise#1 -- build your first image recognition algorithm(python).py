@@ -42,17 +42,17 @@
 # 
 # We often build 1-3 separately and integrate them into one function we call `model()`.
 
-# ## Steps:
-# ## I. Import Packages
-# ## II. Problem Statement
-# ## III. Load the data
-# ## IV. Reshape dataset
-# ## V. Standardize/Normalize dataset
-# ## VI. Architecture of the learning algorithm
-# ## VII. Implement algorithm on training dataset
-# ## VIII. Merge all functions into a model
-# ## IX. Further analysis
-# ## X. Test with your own image
+# ### Steps:
+# #### I. Import Packages
+# #### II. Problem Statement
+# #### III. Load the data
+# #### IV. Reshape dataset
+# #### V. Standardize/Normalize dataset
+# #### VI. Architecture of the learning algorithm
+# #### VII. Implement algorithm on training dataset
+# #### VIII. Merge all functions into a model
+# #### IX. Further analysis
+# #### X. Test with your own image
 
 # ## I. Import Packages
 
@@ -124,55 +124,55 @@ print ("y = " + str(train_set_y[:, index]) + ", it's a '" +
 
 # This is quite common in computer vision the first dimension being the number of examples, the second and third provide the data of the examples. In the case of computer vision for example it is quite common to have a set of n images with shape (x,y). In this case your training set will be of the shape (n,x,y). The fourth dimension in your data is the number of channels (3, or RGB in this case).
 
-# In[ ]:
+# In[44]:
 
 
 train_set_x_orig.shape
 
 
-# In[ ]:
+# In[45]:
 
 
 print(train_set_x_orig)
 
 
-# In[ ]:
+# In[46]:
 
 
 print (train_set_x_orig[208])
 
 
-# In[ ]:
+# In[47]:
 
 
 print (train_set_x_orig[209]) #error b/c there're only 209 examples
 
 
-# In[ ]:
+# In[48]:
 
 
 train_set_y.shape
 
 
-# In[ ]:
+# In[49]:
 
 
 print(train_set_y)
 
 
-# In[ ]:
+# In[50]:
 
 
 test_set_x_orig.shape
 
 
-# In[ ]:
+# In[51]:
 
 
 test_set_y.shape
 
 
-# In[ ]:
+# In[31]:
 
 
 # To help understand nested matrix
@@ -343,13 +343,13 @@ x.shape
 # 
 # 3: col num is 3 in each matrix
 
-# In[ ]:
+# In[32]:
 
 
 x.shape[1]
 
 
-# In[ ]:
+# In[33]:
 
 
 train_set_x_orig.shape[3]
@@ -482,14 +482,14 @@ test_set_x = test_set_x_flatten/255.
 
 # ### General way of standardization
 
-# In[8]:
+# In[34]:
 
 
 train_set_norm = np.linalg.norm(train_set_x_flatten, axis=1, keepdims=True) #axis=1 means normalize by rows
 train_set_normalized = train_set_x_flatten / train_set_norm
 
 
-# In[9]:
+# In[35]:
 
 
 #check the answer
@@ -538,7 +538,7 @@ def sigmoid(z): # Compute the sigmoid of z
     return s
 
 
-# In[ ]:
+# In[36]:
 
 
 print ("sigmoid([0, 2]) = " + str(sigmoid(np.array([0,2]))))
@@ -580,7 +580,7 @@ def initialize_with_zeros(dim): #creates a vector of zeros of shape (dim, 1) for
     return w, b #w -- initialized vector of shape (dim, 1), b -- initialized scalar (corresponds to the bias)
 
 
-# In[ ]:
+# In[37]:
 
 
 #Test
@@ -624,14 +624,14 @@ print ("b = " + str(b))
 
 # __squeeze function__
 
-# In[ ]:
+# In[38]:
 
 
 x = np.array([[[0], [1], [2]]])
 x
 
 
-# In[ ]:
+# In[39]:
 
 
 x=np.squeeze(x)
@@ -687,7 +687,7 @@ def propagate(w, b, X, Y):
     return grads, cost
 
 
-# In[ ]:
+# In[41]:
 
 
 #Test:
@@ -784,7 +784,7 @@ def optimize(w, b, X, Y, num_iterations, learning_rate, print_cost = False):
     return params, grads, costs
 
 
-# In[ ]:
+# In[42]:
 
 
 #Test:
@@ -821,7 +821,7 @@ print ("db = " + str(grads["db"]))
 # 
 # </table>
 
-# ### 5. Prediction function
+# ### 5 - Prediction function
 
 # The previous function will output the learned w and b. We are able to use w and b to predict the labels for a dataset X. Implement the `predict()` function. There are two steps to computing predictions:
 # 
@@ -869,7 +869,7 @@ def predict(w, b, X):
     return Y_prediction
 
 
-# In[ ]:
+# In[43]:
 
 
 #Test:
