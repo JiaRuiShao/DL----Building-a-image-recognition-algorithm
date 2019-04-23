@@ -9,13 +9,13 @@ As you keep learning new techniques you will increase it to 80+ % accuracy on ca
 
 By completing this assignment you will:
 
-- ** Work with logistic regression in a way that builds intuition relevant to neural networks.**
+- Work with logistic regression in a way that builds intuition relevant to neural networks.
 
 
-- ** Learn how to minimize the cost function.**
+- Learn how to minimize the cost function.
 
 
-- ** Understand how derivatives of the cost are used to update parameters.**
+- Understand how derivatives of the cost are used to update parameters.
 
 Take your time to complete this assignment and make sure you get the expected outputs when working through the different exercises. 
 
@@ -1649,6 +1649,6 @@ Finally, if you'd like, we invite you to try different things on this Notebook. 
     - Test other preprocessings (center the data, or divide each row by its standard deviation)
 
 Bibliography
-- https://datascience-enthusiast.com/DL/Logistic-Regression-with-a-Neural-Network-mindset.html (useful reference)
+- https://datascience-enthusiast.com/DL/Logistic-Regression-with-a-Neural-Network-mindset.html
 - http://www.wildml.com/2015/09/implementing-a-neural-network-from-scratch/
 - https://stats.stackexchange.com/questions/211436/why-do-we-normalize-images-by-subtracting-the-datasets-image-mean-and-not-the-c
