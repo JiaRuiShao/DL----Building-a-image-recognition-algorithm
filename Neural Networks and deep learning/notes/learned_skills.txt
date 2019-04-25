@@ -1,0 +1,18 @@
+supervised learning
+deep learning
+logistic regression
+gradient descent
+forward propagation
+backpropagation
+binary classification
+convolutional neural network
+activation function
+L-layer neural network
+derivatives
+vectorization
+cost function
+numpy
+tensorflow
+matplotlib
+python programming
+python implementations
