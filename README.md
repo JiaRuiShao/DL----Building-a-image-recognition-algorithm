@@ -32,6 +32,8 @@ This course also teaches you how Deep Learning actually works, rather than prese
 
 This is the first course of the Deep Learning Specialization.
 
+[Outline](https://github.com/JiaRuiShao/Deep-Learning/blob/DL/Neural%20Networks%20and%20deep%20learning/README.md)
+
 __2. Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization__
 
 This course will teach you the "magic" of getting deep learning to work well. Rather than the deep learning process being a black box, you will understand what drives performance, and be able to more systematically get good results. You will also learn TensorFlow. 
