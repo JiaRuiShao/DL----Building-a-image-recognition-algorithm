@@ -28,7 +28,7 @@
     
 5. Which one of these plots represents a ReLU activation function?
 
-    - ![ReLU Function](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Rectifier_and_softplus_functions.svg/1920px-Rectifier_and_softplus_functions.svg.png)
+    ![ReLU Function](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Rectifier_and_softplus_functions.svg/1920px-Rectifier_and_softplus_functions.svg.png)
     
 6. Images for cat recognition is an example of “structured” data, because it is represented as a structured array in a computer. True/False?
     
