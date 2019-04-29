@@ -150,7 +150,7 @@ A single neuron appears to be much more complex than we are able to characterize
 
 [Building your Deep Neural Network - Step by Step](https://github.com/JiaRuiShao/Deep-Learning/blob/DL/Neural%20Networks%20and%20deep%20learning/projects/Building%20your%20Deep%20Neural%20Network%20-%20Step%20by%20Step.ipynb)
 
-[Build your first image recognition algorithm](https://github.com/JiaRuiShao/Deep-Learning/blob/DL/Neural%20Networks%20and%20deep%20learning/projects/Build%20your%20first%20image%20recognition%20algorithm.ipynb)
+[Deep Neural Network Application](https://github.com/JiaRuiShao/Deep-Learning/blob/DL/Neural%20Networks%20and%20deep%20learning/projects/Deep%20Neural%20Network%20-%20Application.ipynb)
 
 ### III. Quiz
 
