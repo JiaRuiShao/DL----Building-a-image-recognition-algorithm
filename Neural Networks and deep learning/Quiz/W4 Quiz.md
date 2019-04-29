@@ -7,7 +7,7 @@
     - [ ] It is used to keep track of the hyperparameters that we are searching over, to speed up computation.
     - [ ] We use it to pass variables computed during backward propagation to the corresponding forward propagation step. It contains useful values for forward propagation to compute activations.
 
-    > the "cache" records values from the forward propagation units and sends it to the backward propagation units because it is needed to compute the chain rule derivatives.
+    The "cache" records values from the forward propagation units and sends it to the backward propagation units because it is needed       to compute the chain rule derivatives.
 
 2. Among the following, which ones are "hyperparameters"? (Check all that apply)
 
@@ -45,14 +45,14 @@ Correct
     
     Note: The input layer (L^[0]) does not count.
     
-    > As seen in lecture, the number of layers is counted as the number of hidden layers + 1. The input and output layers are not counted as hidden layers.
+    As seen in lecture, the number of layers is counted as the number of hidden layers + 1. The input and output layers are not counted     as hidden layers.
 
 7. During forward propagation, in the forward function for a layer l you need to know what is the activation function in a layer (Sigmoid, tanh, ReLU, etc.). During backpropagation, the corresponding backward function also needs to know what is the activation function for layer l, since the gradient depends on it. True/False?
 
     - [x] True
     - [ ] False
     
-    > During backpropagation you need to know which activation was used in the forward propagation to be able to compute the correct derivative.
+    During backpropagation you need to know which activation was used in the forward propagation to be able to compute the correct         derivative.
     
 8. There are certain functions with the following properties:
 
