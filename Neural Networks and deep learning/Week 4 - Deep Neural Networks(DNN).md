@@ -112,9 +112,9 @@ Sometime, we also cache weights (w) and biases (b) to make code more efficient.
 What are hyperparameters?
 
 - learning rate alpha
-- # iterations
-- # hidden layer L
-- # hidden units n[l]
+- '#' of iterations
+- '#' of hidden layer L
+- '#' of hidden units n[l]
 - choice of activation function
 
 We call all of these things above __hyper parameters__ because these things like alpha the learning rate the number of iterations number of hidden layers and so on these are all parameters that __control/determine the value of parameters(W and B)__
