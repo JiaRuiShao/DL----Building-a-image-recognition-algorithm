@@ -206,7 +206,7 @@ Python vectorization. As observed in Rotating particles and Python efficiency, t
 
 Machine Learning Explained: Vectorization and matrix operations. With vectorization these operations can be seen as matrix operations which are often more efficient than standard loops. Vectorized versions of algorithm are several orders of magnitudes faster and are easier to understand from a mathematical perspective.
 
-![Loop vs Vectorized vs Scikit](file:///C:/Users/surface/Yinxiang%20Biji/Databases/Attachments/eb6925b7d80c4ed154b1320fb54f73e9.webp)
+![Loop vs Vectorized vs Scikit](http://benediktehinger.de/blog/science/upload/sites/2/2017/11/matlab_comparison.png)
 
 The vectorization can be done on CPU or GPU thought the SIMD operation. But its faster on GPU.
 
