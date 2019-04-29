@@ -87,4 +87,4 @@
     
 10. In the same network as the previous question, what are the dimensions of Z^[1] and A^[1]?
 
-    - Z[1] and A[1] are (4,m)
+    Z[1] and A[1] are (4,m)
